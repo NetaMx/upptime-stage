@@ -140,10 +140,10 @@ status-website:
       href: "/"
     - title: "Service Status"
       href: "https://status.ops.neta.mx/"
+    - title: "Dev Service Status"
+      href: "https://dev.status.ops.neta.mx/"
     - title: "QA Service Status"
       href: "https://qa.status.ops.neta.mx/"
-    - title: "Stage Service Status"
-      href: "https://stage.status.ops.neta.mx/"
   metaTags:
     - name: "color-scheme"
       content: "light"
