@@ -28,8 +28,8 @@ sites:
       - 403
   - name: "neta argo"
     url: $NETA_ARGO
-    __dangerous__insecure: true
     maxResponseTime: 2000
+    __dangerous__insecure: true
     expectedStatusCodes:
       - 200
       - 403
@@ -119,6 +119,54 @@ sites:
       - 403
   - name: "ops store"
     url: $OPS_STORE
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ops order"
+    url: $OPS_ORDER
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ops invoice"
+    url: $OPS_INVOICE
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ops invoice v0"
+    url: $OPS_INVOICE_V0
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "Store"
+    url: $STORE
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "pdf generator"
+    url: $PDF_GENERATOR
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ops delivery"
+    url: $OPS_DELIVERY
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ops security"
+    url: $OPS_SECURITY
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "backoffice"
+    url: $BACKOFFICE
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
