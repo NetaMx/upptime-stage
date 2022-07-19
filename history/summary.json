@@ -880,12 +880,12 @@
     "url": "$OPS_INVOICE_V0",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "ops-invoice-v0",
-    "status": "up",
-    "uptime": "71.39%",
-    "uptimeDay": "60.88%",
+    "status": "down",
+    "uptime": "71.50%",
+    "uptimeDay": "61.00%",
     "uptimeWeek": "45.99%",
-    "uptimeMonth": "71.39%",
-    "uptimeYear": "71.39%",
+    "uptimeMonth": "71.50%",
+    "uptimeYear": "71.50%",
     "time": 62,
     "timeDay": 60,
     "timeWeek": 62,
@@ -899,7 +899,7 @@
       "2022-07-15": 742,
       "2022-07-14": 1440,
       "2022-07-13": 1050,
-      "2022-07-12": 413
+      "2022-07-12": 390
     }
   },
   {
